@@ -25,7 +25,7 @@ app.get("*", (req, res) => {
 });
 
 //connect to the Mongo DB
-mongoose.connect(process.env.MONGODB_URI || "mongodb://sgttenorT42n24t69.mlab.com:heroku_nh9q9fr0", 
+mongoose.connect(process.env.MONGODB_URI || "mongodb://sgttenor:T42n24t69.mlab.com:heroku_nh9q9fr0", 
 { useNewUrlParser: true });
 
 // start the API server
