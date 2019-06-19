@@ -25,7 +25,7 @@ app.get("*", (req, res) => {
 });
 
 //connect to the Mongo DB
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/googlebooks", 
+mongoose.connect(process.env.MONGODB_URI || "mongodb://sgttenor:T42n24t69.mlab.com:41097/heroku_cqt0d1px", 
 { useNewUrlParser: true });
 
 // start the API server
