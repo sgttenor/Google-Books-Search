@@ -52,8 +52,9 @@ class Books extends Component {
 
   // saves book to database
   handleSaveBook = bookData => {
+    console.log(bookData)
     API.saveBook(bookData)
-      .then(res => alert("Book Saved!"))
+      .then(alert("Book Saved!"))
       .catch(err => console.log(err));
   };
 
