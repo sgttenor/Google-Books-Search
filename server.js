@@ -21,7 +21,7 @@ app.use(routes);
 // request to the React app
 // define any API routes
 app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "./client/public/index.html"));
+  res.sendFile(path.join(__dirname, "./client/build/index.html"));
 });
 
 //connect to the Mongo DB
